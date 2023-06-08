@@ -1,0 +1,232 @@
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git
+$ git clone git@github.com:GMaryApurvaG/FST_GIT_Repo.git
+Cloning into 'FST_GIT_Repo'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git
+$ cd FST_GIT_Repo/
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git pull
+Already up to date.
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git add .
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git commit -m "Sample file updated"
+[main dd8d72a] Sample file updated
+ Committer: Mary Apurva G <mary.apurva@ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git add .
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git commit -m "input file is created"
+[main ecef251] input file is created
+ Committer: Mary Apurva G <mary.apurva@ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+)
+ create mode 100644 input.txt
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git add .
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git commit -m "Sample file updated"
+[main 3c20ad3] Sample file updated
+ Committer: Mary Apurva G <mary.apurva@ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 934 bytes | 934.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:GMaryApurvaG/FST_GIT_Repo.git
+   c059e4f..3c20ad3  main -> main
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git pull
+Already up to date.
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git add .
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git commit -m "Sample file updated"
+[main 1e8f8dc] Sample file updated
+ Committer: Mary Apurva G <mary.apurva@ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 353 bytes | 353.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:GMaryApurvaG/FST_GIT_Repo.git
+   3c20ad3..1e8f8dc  main -> main
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ ls
+input.txt  README.md  Sample
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git add .
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git commit -m "Sample file updated"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git push
+To github.com:GMaryApurvaG/FST_GIT_Repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:GMaryApurvaG/FST_GIT_Repo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 726 bytes | 121.00 KiB/s, done.
+From github.com:GMaryApurvaG/FST_GIT_Repo
+   1e8f8dc..8983ad8  main       -> origin/main
+Updating 1e8f8dc..8983ad8
+Fast-forward
+ Sample | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git push
+Everything up-to-date
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git branch Branch1
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git branch
+  Branch1
+* main
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (main)
+$ git checkout Branch1
+Switched to branch 'Branch1'
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (Branch1)
+$ git branch
+* Branch1
+  main
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (Branch1)
+$ git add .
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (Branch1)
+$ git commit -m "input 1 created"
+[Branch1 87237eb] input 1 created
+ Committer: Mary Apurva G <mary.apurva@ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 input1.txt
+
+GMX+0049CI744@IBM-PF3JRVR8 MINGW64 ~/Desktop/FST/Git/FST_GIT_Repo (Branch1)
+$ git push origin Branch1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 276 bytes | 276.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Branch1' on GitHub by visiting:
+remote:      https://github.com/GMaryApurvaG/FST_GIT_Repo/pull/new/Branch1
+remote:
+To github.com:GMaryApurvaG/FST_GIT_Repo.git
+ * [new branch]      Branch1 -> Branch1
