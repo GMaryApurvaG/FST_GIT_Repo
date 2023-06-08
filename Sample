@@ -10,4 +10,5 @@ github
 git add <filename>
 git add <foldername>
 git add .
-
+git pull
+git push
