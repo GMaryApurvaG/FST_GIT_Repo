@@ -5,3 +5,8 @@ github
 2. make changes
 3. staging
 4. push
+
+git add <filename>
+git add <foldername>
+git add .
+
