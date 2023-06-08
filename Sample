@@ -4,7 +4,8 @@ github
 1. pull
 2. make changes
 3. staging
-4. push
+4. commit
+5. push
 
 git add <filename>
 git add <foldername>
